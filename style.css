@@ -65,3 +65,42 @@ input {
 margin: 5px 0;
 font-size: 14px;
 }
+
+
+
+
+@media only screen and (max-width:400px) {
+    .container {
+        height: 400px;
+        width: 270px;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    input {
+        font-size: 14px;
+        width: 80%;
+    }
+
+    #result {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+        font-weight: 500;
+
+    }
+
+    .guide-box p {
+        margin: 5px 0;
+        font-size: 12px;
+    }
+
+
+}
